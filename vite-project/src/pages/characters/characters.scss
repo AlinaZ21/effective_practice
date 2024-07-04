@@ -1,0 +1,31 @@
+.characters__field {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.characters__title {
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.characters__count {
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+    margin-left: 10px;    
+}
+.characters__items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 700px;
+    
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+div {
+    background-color:rgb(104, 154, 192);
+  }
