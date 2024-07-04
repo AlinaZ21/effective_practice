@@ -1,0 +1,31 @@
+.comics-details__image{
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+}
+.comics-details__title{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin-left: 10px;
+}
+.comics-details__content {
+    margin-left: 50px;
+    color: rgb(83, 0, 0);
+    display: inline-block;
+    font-size: 20px;
+}
+.comics-details__comics {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.comics-details__comics a {
+    margin-bottom: 10px;
+    color: rgb(32, 0, 83);
+}
+.comics-details__comics h5 {
+    font-size: 28px;
+    color: black; 
+    margin-top: 5%;
+    margin-left: 10px;
+}
