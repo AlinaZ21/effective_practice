@@ -3,7 +3,7 @@ import { Header } from '../../Components/Header';
 import { ListItem } from '../../Components/List-item';
 import { SearchButton } from '../../Components/search-button';
 import { SearchInput } from '../../Components/search-input';
-import { charactersList } from '../../mockListItem/mockListItem';
+import { charactersList } from '../../Components/mockListItem/mockListItem';
 import './characters.scss';
 export const Characters = () => {
   return (
@@ -18,7 +18,13 @@ export const Characters = () => {
       </div>
       <div className="characters__items">
         {charactersList.map((c) => (
-          <ListItem Image={c.Image} title={c.title} description={c.description} />
+          <ListItem
+            id = {c.id}
+            Image = {c.Image}
+            title = {c.title}
+            description = {c.description}
+            parent = "characters"
+          />
         ))}
       </div>
       <Footer />
